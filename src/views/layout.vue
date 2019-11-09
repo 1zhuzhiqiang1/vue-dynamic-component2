@@ -16,7 +16,7 @@
       return {
         textarea: '',
         renderUrl: '',
-        urlA: '/assets/components/componenta.umd.js',
+        urlA: '/assets/components/componentA.umd.min.js',
         urlB: '/assets/components/vueformdesign.umd.min.js'
       };
     },

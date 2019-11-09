@@ -1,24 +1,21 @@
 # vue-dynamic-component2
 
-## Project setup
+## 下载项目
+```
+git clone https://github.com/zhuzhiqiang/vue-dynamic-component2.git
+```
+
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动项目
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run start
 ```
 
-### Lints and fixes files
+### 编译组件
 ```
-npm run lint
+npm run build:componentA
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
