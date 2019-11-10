@@ -42,7 +42,7 @@
             res = await window.SyncComponentCache[this.url];
           }
           // console.log(res.data);
-          let Fn = Function;
+          // let Fn = Function;
           // this.mode = new Fn(`return ${res.data}`)();
           this.mode = this._require(res.data);
           console.log(this.mode);
@@ -57,14 +57,14 @@
           this.exports = {};
         };
         // 头尾拼接包装成新的字符串
-        let packSourceCode = '(function(module,exports){ ' + content + ' return module.exports; })';
+        let packSourceCode = '(function(module,exports,require){ ' + content + ' return module.exports; })';
         // 字符串转换成函数
         let packFunc = eval(packSourceCode);
         // 实例化一个Module 里面有一个exports属性
         let module = new Module();
         // 把module 和 它内部的module.exports都作为参数传进去
         // 并得到挂在到module.exports 或 exports上的功能
-        return packFunc(module, module.exports);
+        return packFunc(module, module.exports,require);
       }
     }
   };
