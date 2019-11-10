@@ -25,12 +25,12 @@
       return {
         textarea: '',
         renderUrl: '',
-        urlA: '/assets/components/componentA.umd.min.js',
-        urlB: '/assets/components/vueformdesign.umd.min.js',
-        urlC: '/assets/components/dashBoard.umd.min.js',
-        urlD: '/assets/components/BaseTable.umd.min.js',
-        url5: '/assets/components/Tabs.umd.min.js',
-        url6: '/assets/components/BaseForm.umd.min.js',
+        urlA: './assets/components/componentA.umd.min.js',
+        urlB: './assets/components/vueformdesign.umd.min.js',
+        urlC: './assets/components/dashBoard.umd.min.js',
+        urlD: './assets/components/BaseTable.umd.min.js',
+        url5: './assets/components/Tabs.umd.min.js',
+        url6: './assets/components/BaseForm.umd.min.js',
       };
     },
     components: {

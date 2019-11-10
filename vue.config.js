@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: "/dynamicComponent2/",
     productionSourceMap: false,
     devServer: {
         open: true

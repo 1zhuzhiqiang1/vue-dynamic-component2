@@ -19,3 +19,8 @@ npm run start
 ```
 npm run build:componentA
 ```
+### 打包
+```
+npm run build
+将根目录下的 dist 目录改名为  dynamicComponent2  复制到 tomncat 的 webapps 下面
+```
